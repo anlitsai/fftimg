@@ -136,12 +136,15 @@ plt.show()
 ax = plt.axes(projection='3d')
 fig = plt.figure()
 ax.plot_surface(X,Y,Zfft,cmap='rainbow')
+plt.show()
 
 #https://scipy-lectures.org/advanced/image_processing/
 #https://vimsky.com/zh-tw/examples/detail/python-method-numpy.fft.ifftn.html
 
 
-plt.show()
+
+
+
 '''
 xx = np.linspace(0.0, N*T, N)
 yy = np.linspace(0.0, N*T, N)
